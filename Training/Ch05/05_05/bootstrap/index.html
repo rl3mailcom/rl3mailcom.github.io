@@ -16,16 +16,19 @@
 
 <form>
 
-  <div class="form-group">
-    <label for="inputName">Name</label>
-    <input class="form-control" type="text" 
-      id="inputName" placeholder="Name">
+  <div class="form-group has-success has feedback">
+    <label class="control-label" for="inputName">Name</label>
+    <input class="form-control" type="text"
+      id="inputName" placeholder="Name" aria-describedby="nameStatus">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden=true></span>
+    <span id="nameStatus" class="sr-only">(success)
+  </span>
   </div>
 
 </form>
 
     </section>
-  </div><!-- row -->   
+  </div><!-- row -->
 </div><!-- content container -->
 
 

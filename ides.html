@@ -27,8 +27,8 @@
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">Home</a></li>
-          <li><a href="web_dev.html">Web Development</a></li>
-          <li class="active"><a href="front_end.html">Front-End Development</a></li>
+          <li class="active"><a href="web_dev.html">Web Development</a></li>
+          <li><a href="front_end.html">Front-End Development</a></li>
           <li><a href="back_end.html">Back-End Development</a></li>
           <li><a href="inet_res.html">Internet Resources</a></li>
         </ul>
@@ -36,7 +36,7 @@
     </div><!-- container -->
   </nav>
   
-  <div class="carousel slide" id="featured">
+<div class="carousel" id="featured">
 
 	<ol class="carousel-indicators">
 		<li  data-target="#feature" data-slide-to="0" class="active">
@@ -56,11 +56,11 @@
 			<img src="images/carousel-web101.jpg" alt="Web Development">
 			<div class="carousel-caption text-left"><h2>Web 101</h2></div>
 		</div>
-		<div class="item">
+		<div class="item active">
 			<img src="images/carousel-webdev.jpg" alt="Web Development">
 			<div class="carousel-caption text-left"><h3>Web Development</h3></div>
 		</div>
-		<div class="item active">
+		<div class="item">
 			<img src="images/carousel-front_end.jpg" alt="Front-End Development">
 			<div class="carousel-caption left-caption"><h3>Front-End Development</h3></div>
 		</div>
@@ -80,33 +80,37 @@
 		<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
 </div> <!-- carousel -->
-
+<br>
 <div class="content container">
   <div class="row">
     <section class="col-sm-12">
 
-<br>
 <!-- Menu Dropdown -->
 	<div class="dropdown">
-	<button type="button" data-toggle="dropdown" id="frontend" aria-haspopup="true" aria-expanded="true"  class="btn btn-info">Front-End Development
+	<button type="button" data-toggle="dropdown" id="webdevelopment" aria-haspopup="true" aria-expanded="true"  class="btn btn-info">Web Development
 		<span class="caret"></span>
 	</button>
 	
-		<ul class="dropdown-menu" aria-labelledby="frontend">
-			<li><a href="#cms"> Content Management Systems </a></li>
-			<li><a href="#design">Design Usability</a></li>
-			<li><a href="#mobile"> Mobile Applications </a></li>
-			<li><a href="#hosting">Website Hosting</a></li>
-			<li><a href="#ui/ux"> UI/UX </a></li>
+		<ul class="dropdown-menu" aria-labelledby="webdevelopment">
+			<li><a href="html_css_js.html">HTML/CSS/JavaScript</a></li>
+			<li><a href="editors.html">Editors</a></li>
+			<li><a href="ides.html">IDE's</a></li>
+			<li><a href="plugins.html">Plug-ins</a></li>
+			<li><a href="devtools.html">Developer Tools</a></li>
 		</ul>
 	
 	</div> <!-- Menu Dropdown End -->
 <br>
-<p>Design Usability, User-Interface/User-Experience (UI/UX), Mobile Applications, Content Management Systems, and web hosting are level-up concepts after Web Development.  These are all concepts that would be associated with Front-End Development. </p>
-
-<p>Site development is important if you want folks to not only visit your site but utilize what you are offering.  If you are looking to sell items you want folks to come, see, stay, buy and come back to your site.  In order for that to happen users need to feel comfortable with your site.  They want you site to load quickly and have the information presented in a format that is most appealing to them. The site should also be able to serve mobile users.  Developer tools now incorporate different mobile templates for building and tested for mobile users. </p>
-
-<p>Content Management is important because you want to keep your site up to date and if you happen to be working with someone else on your site, you want to keep things in order between the two of you as users.  </p>
+	
+<div class="col-md-4">
+		<img src="images/devtool-screen2-sm.jpg" height="150" width="300" alt="devtools picture">
+	</div>
+	<div class="col-md-8">
+	<h4>Integrated Development Environments (IDE's)</h4>
+	<p>I researched DevTool videos on YouTube.  I came across several that have some cool stuff in them, but the one I found most interesting is an older video from one of the Chrome team developers.  
+	<br>
+	Below is a link to my screen shot.  A cool feature I found is how to console an active element in DevTools using $0 (dollar zero) </p>
+</div> <!-- columns -->
 
     </section>
   </div><!-- row -->   
